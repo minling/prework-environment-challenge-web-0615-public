@@ -7,7 +7,7 @@ languages: ruby
 
 Now that you've completed your [First Lab](http://learn.flatironschool.com/lessons/1013), we're going to make sure that you've installed everything okay when you configured your environment back in [Environment Setup](http://learn.flatironschool.com/lessons/1171).
 
-All you need to do is run `ironboard`, which will run the tests in the `spec/` directory. Don't worry if running the tests takes a few seconds to finish. If everything's all green, you're good to go! If you need help, click the "Need Help" button.
+All you need to do is run `ironboard`, which will run the tests in the `spec/` directory. Don't worry if running the tests takes a few seconds to finish. All of the specs should pass locally, and you should see that also reflected on IronBoard, but these specs will not pass for the remote build on IronBoard: basically you should just see two green lights on IronBoard and that's okay.
 
 Next:
 
