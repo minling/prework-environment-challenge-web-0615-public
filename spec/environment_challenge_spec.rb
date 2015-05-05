@@ -16,6 +16,6 @@ describe "checking our environment setup" do
   end
 
   it 'has ironboard gem installed' do
-    expect(Open3.capture3("gem list")[0]).to include("ironboard")
+    expect(Open3.capture3("gem list")[0]).to include("learn-co")
   end
 end
