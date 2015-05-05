@@ -15,7 +15,7 @@ describe "checking our environment setup" do
     expect(Open3.capture3("which ruby")[0]).to include(".rvm")
   end
 
-  it 'has ironboard gem installed' do
+  it 'has learn gem installed' do
     expect(Open3.capture3("gem list")[0]).to include("learn-co")
   end
 end
